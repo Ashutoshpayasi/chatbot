@@ -1,0 +1,111 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/isometric-young-boy-using-technological-devices-background_23-2148123685.jpg?t=st=1731569568~exp=1731573168~hmac=33c253923b1500b3146633db47c42a4094d4632df6bfdc41fde25a706e9a9948&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #1a73e8;
+    margin-bottom: 20px;
+  }
+  
+  .chatarea {
+    width: 100%;
+    max-width: 600px;
+    height: 70vh;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  #chat {
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .message {
+    margin-bottom: 15px;
+    max-width: 80%;
+    clear: both;
+  }
+  
+  .user-message {
+    float: right;
+    background: #1a73e8;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px 15px 0 15px;
+  }
+  
+  .bot-message {
+    float: left;
+    background: #e9ecef;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 15px 15px 15px 0;
+  }
+  
+  .inputbox {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  #user {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  #send {
+    padding: 12px 24px;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #send:hover {
+    background: #1557b0;
+  }
+  
+  #media {
+    padding: 8px;
+  }
+  
+  .media-content {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .message-container {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }

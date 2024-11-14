@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatBot UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- 
+A main chat area to display messages.
+○ An input box for users to type their messages.
+○ A "Send" button to send messages.
+○ A media upload option that allows users to send images or files, which will be
+displayed in the chatbox.
+ -->
+  <body>
+    <h1>ChatBot UI</h1>
+    <!-- main chat area to display messages. -->
+    <div class="chatarea">
+      <div id="chat">
+        <div id="mediadisplay"></div>
+      </div>
+    </div>
+    <!-- An input box for users to type their messages. -->
+    <div class="inputbox">
+      <input type="text" name="message" id="user" placeholder="message here" />
+      <button id="send">Send</button>
+      <input type="file" name="media" id="media">
+    </div>
+   
+  </body>
+  <script src="script.js"></script>
+</html>
+
+<!-- 
+1. take input from user.
+2. display the message to the chatbot id -->
